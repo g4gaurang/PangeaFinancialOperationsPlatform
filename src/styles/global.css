@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap");
-
 :root {
-  font-family: "DM Sans", system-ui, sans-serif;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
   color: #102331;
   background: #f4f7f8;
   font-synthesis: none;
@@ -23,7 +21,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 button { cursor: pointer; }
 a { color: inherit; text-decoration: none; }
 h1, h2, h3, h4, p { margin-top: 0; }
-h1, h2, h3, h4 { font-family: "Manrope", sans-serif; letter-spacing: -0.035em; }
+h1, h2, h3, h4 { font-family: Inter, "Segoe UI", Arial, sans-serif; letter-spacing: -0.035em; }
 h2 { font-size: clamp(2rem, 4vw, 3.35rem); line-height: 1.08; }
 h3 { line-height: 1.2; }
 p { line-height: 1.65; }
@@ -35,8 +33,8 @@ svg { flex: 0 0 auto; }
 .eyebrow { display: flex; align-items: center; gap: 7px; color: #4f697a; font-size: .72rem; font-weight: 700; letter-spacing: .16em; line-height: 1.4; text-transform: uppercase; }
 
 .site-nav { position: sticky; top: 0; z-index: 100; height: 72px; display: flex; align-items: center; justify-content: space-between; padding: 0 clamp(20px, 4vw, 68px); color: #fff; background: rgba(7, 21, 34, .94); border-bottom: 1px solid rgba(255,255,255,.1); backdrop-filter: blur(18px); }
-.brand { display: flex; align-items: center; gap: 11px; font-family: "Manrope"; font-size: .9rem; font-weight: 700; letter-spacing: .17em; }
-.brand small { display: block; margin-top: 2px; color: #7890a2; font: 500 .47rem "DM Sans"; letter-spacing: .16em; }
+.brand { display: flex; align-items: center; gap: 11px; font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: .9rem; font-weight: 700; letter-spacing: .17em; }
+.brand small { display: block; margin-top: 2px; color: #7890a2; font: 500 .47rem Inter, "Segoe UI", Arial, sans-serif; letter-spacing: .16em; }
 .brand-mark { width: 28px; height: 28px; display: flex; gap: 2px; align-items: flex-end; transform: skew(-8deg); }
 .brand-mark span { width: 4px; border-radius: 1px; background: #22c7e4; }
 .brand-mark span:nth-child(1) { height: 8px; opacity: .5; }.brand-mark span:nth-child(2) { height: 15px; opacity: .65; }.brand-mark span:nth-child(3) { height: 25px; }.brand-mark span:nth-child(4) { height: 18px; opacity: .75; }.brand-mark span:nth-child(5) { height: 11px; opacity: .55; }
@@ -85,7 +83,7 @@ svg { flex: 0 0 auto; }
 .section-intro { max-width: 900px; margin-bottom: 46px; }.section-intro h2 { max-width: 900px; margin-bottom: 18px; color: #102331; }.section-intro > p:last-child { max-width: 730px; color: #617382; font-size: 1rem; }
 .challenge-layout { display: grid; grid-template-columns: minmax(280px,.72fr) minmax(460px,1.28fr); border: 1px solid var(--line); background: #fff; box-shadow: 0 22px 60px rgba(19,48,65,.06); }
 .challenge-list { border-right: 1px solid var(--line); }.challenge-list button { width: 100%; min-height: 74px; display: grid; grid-template-columns: 38px 1fr 20px; gap: 10px; align-items: center; padding: 12px 20px; color: #6d7d89; border: 0; border-bottom: 1px solid var(--line); background: #f8fafb; text-align: left; }
-.challenge-list button:last-child { border-bottom: 0; }.challenge-list button span { color: #a8b4bc; font: 600 .65rem "Manrope"; }.challenge-list button strong { font: 600 .82rem "DM Sans"; }.challenge-list button svg { width: 16px; }
+.challenge-list button:last-child { border-bottom: 0; }.challenge-list button span { color: #a8b4bc; font: 600 .65rem Inter, "Segoe UI", Arial, sans-serif; }.challenge-list button strong { font: 600 .82rem Inter, "Segoe UI", Arial, sans-serif; }.challenge-list button svg { width: 16px; }
 .challenge-list button[aria-selected="true"] { color: #0c2636; background: #fff; box-shadow: inset 3px 0 #20c7e8; }
 .challenge-detail { padding: clamp(28px,4vw,60px); }.challenge-detail .eyebrow { color: var(--product-accent); }.challenge-detail h3 { font-size: 1.8rem; }.large-copy { max-width: 760px; color: #4e6473; font-size: 1.04rem; }
 .detail-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; margin: 28px 0; background: var(--line); border: 1px solid var(--line); }.detail-grid div { padding: 18px; background: #f7f9fa; }.detail-grid span, .monitor-row > span { color: #7d8c96; font-size: .63rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; }.detail-grid p { margin: 7px 0 0; color: #304654; font-size: .78rem; }
@@ -98,7 +96,7 @@ svg { flex: 0 0 auto; }
 .product-switcher__item[aria-selected="true"] { color: #fff; background: #102837; box-shadow: inset 0 -3px var(--product-accent); }.product-switcher__item[aria-selected="true"] svg { color: var(--product-accent); }
 .product-shell { min-height: 720px; display: grid; grid-template-columns: 300px 1fr; border: 1px solid #29404f; background: #0a1d2a; }
 .product-side { position: relative; padding: 34px 28px; border-right: 1px solid #29404f; overflow: hidden; }.product-side::after { content: ""; position: absolute; width: 220px; height: 220px; left: -90px; bottom: -100px; border-radius: 50%; background: var(--product-accent); opacity: .08; filter: blur(50px); }
-.product-number { position: absolute; right: 18px; top: 15px; color: #263f4f; font: 600 4.3rem "Manrope"; }.product-side h3 { position: relative; margin-top: 45px; font-size: 1.65rem; }.product-side > p:not(.eyebrow) { color: #8095a3; font-size: .82rem; }
+.product-number { position: absolute; right: 18px; top: 15px; color: #263f4f; font: 600 4.3rem Inter, "Segoe UI", Arial, sans-serif; }.product-side h3 { position: relative; margin-top: 45px; font-size: 1.65rem; }.product-side > p:not(.eyebrow) { color: #8095a3; font-size: .82rem; }
 .product-side__services { display: flex; flex-wrap: wrap; gap: 6px; margin: 26px 0; }.product-side__services span { padding: 6px 8px; color: #8fa3b0; border: 1px solid #2d4656; font-size: .62rem; }
 .button--accent { position: relative; z-index: 1; margin-top: 8px; color: #061722; background: var(--product-accent); }
 .product-main { min-width: 0; }.subnav { display: flex; gap: 2px; overflow-x: auto; padding: 11px 16px; border-bottom: 1px solid #29404f; background: #0b202e; scrollbar-width: thin; }
@@ -117,7 +115,7 @@ svg { flex: 0 0 auto; }
 .payroll-summary { display: grid; grid-template-columns: repeat(3,1fr); gap: 7px; margin-top: 18px; }.payroll-summary div { padding: 11px; background: #102938; }.payroll-summary span, .payroll-summary strong { display: block; }.payroll-summary span { color: #718897; font-size: .58rem; }.payroll-summary strong { margin-top: 5px; font-size: .9rem; }
 .capability-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; padding: 24px; }.capability-grid article { padding: 22px 18px; border: 1px solid #294150; background: #0b202d; }.capability-grid article h3 { min-height: 48px; font-size: 1rem; }.capability-row { min-height: 63px; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 0; border-top: 1px solid #263d4b; }.capability-row span:first-child { min-width: 0; }.capability-row strong, .capability-row small { display: block; }.capability-row strong { color: #b9c8d1; font-size: .67rem; }.capability-row small { margin-top: 3px; color: #647c8b; font-size: .52rem; line-height: 1.35; }
 .maturity { flex: 0 0 auto; max-width: 88px; padding: 4px 6px; border: 1px solid #365160; border-radius: 20px; color: #849aa8; font-size: .48rem; line-height: 1.2; text-align: center; }.maturity--available { color: #6cd6ba; border-color: #236555; }.maturity--planned,.maturity--concept { color: #c29dcf; border-color: #5c4165; }.maturity--available-through-integration { color: #85b8dd; border-color: #365d78; }
-.workflow-steps { padding: 30px; }.workflow-steps article { min-height: 120px; display: grid; grid-template-columns: 74px 1fr; border-top: 1px solid #294150; padding: 22px 0; }.workflow-steps > article > span { color: var(--product-accent); font: 600 1.2rem "Manrope"; }.workflow-steps h3 { margin: 3px 0 6px; }.workflow-steps p:last-child { color: #8194a0; font-size: .78rem; }
+.workflow-steps { padding: 30px; }.workflow-steps article { min-height: 120px; display: grid; grid-template-columns: 74px 1fr; border-top: 1px solid #294150; padding: 22px 0; }.workflow-steps > article > span { color: var(--product-accent); font: 600 1.2rem Inter, "Segoe UI", Arial, sans-serif; }.workflow-steps h3 { margin: 3px 0 6px; }.workflow-steps p:last-child { color: #8194a0; font-size: .78rem; }
 .persona-product-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; padding: 26px; }.persona-product-grid article { padding: 22px; border: 1px solid #294150; background: #0b202d; }.persona-icon { width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--product-accent); border-radius: 50%; color: var(--product-accent); font-size: .65rem; }.persona-product-grid h3 { margin: 17px 0 7px; }.persona-product-grid > article > p { min-height: 68px; color: #7e94a2; font-size: .75rem; }.persona-product-grid dl { margin: 0; }.persona-product-grid dt { margin-top: 13px; color: #5f7888; font-size: .55rem; text-transform: uppercase; }.persona-product-grid dd { margin: 4px 0 0; color: #a7bac5; font-size: .65rem; line-height: 1.45; }
 .source-trace { display: flex; align-items: center; gap: 5px; overflow-x: auto; }.source-trace span { flex: 0 0 auto; padding: 12px; border: 1px solid #304959; color: #9eafb9; font-size: .62rem; }.source-trace svg { width: 15px; color: var(--product-accent); }
 .integration-view { display: grid; grid-template-columns: 1.1fr 1fr; gap: 28px; padding: 30px; }.integration-view > div { grid-row: span 6; padding-right: 30px; }.integration-view > div p:last-child { color: #7e93a1; }.integration-view > button { display: flex; align-items: center; gap: 10px; padding: 12px; color: #b6c5ce; border: 1px solid #294352; background: #0b202d; text-align: left; }.integration-view > button > span { flex: 1; }.integration-view strong, .integration-view small { display: block; }.integration-view strong { font-size: .67rem; }.integration-view small { margin-top: 3px; color: #6d8493; font-size: .54rem; }.integration-view svg { width: 15px; color: var(--product-accent); }

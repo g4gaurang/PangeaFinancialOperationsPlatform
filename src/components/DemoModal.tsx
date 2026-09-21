@@ -72,7 +72,13 @@ export function DemoModal({ open, onClose }: DemoModalProps) {
             }}>
               <div className="form-grid">
                 {fields.map(([name, label, type, placeholder]) => (
-                  <label key={name}>{label}{name === "name" || name === "email" ? " *" : ""}<input name={name} type={type} placeholder={placeholder} aria-required={name === "name" || name === "email"} /></label>
+                  <label key={name}>{label}{name === "name" || name === "email" ? " *" : ""}<input
+                    name={name}
+                    type={type}
+                    placeholder={placeholder}
+                    aria-required={name === "name" || name === "email"}
+                    autoComplete={name === "name" ? "name" : name === "email" ? "email" : name === "organization" ? "organization" : name === "role" ? "organization-title" : "off"}
+                  /></label>
                 ))}
                 <label>Product of interest<select name="product" defaultValue=""><option value="">Select a product</option>{products.map((product) => <option key={product.id}>{product.expandedName}</option>)}</select></label>
                 <label>Primary finance challenge *<input name="challenge" placeholder="What would you like to improve?" aria-required="true"/></label>
