@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Pangea Financial Operations Platform</title>
+  <desc id="desc">Five connected product nodes for Pulse, Direct, Shield, Scale, and Payroll.</desc>
+  <defs>
+    <radialGradient id="bg" cx="65%" cy="40%" r="70%"><stop offset="0" stop-color="#12394e"/><stop offset="1" stop-color="#071522"/></radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity=".16" stroke="#89a6b6"><path d="M0 105h1200M0 210h1200M0 315h1200M0 420h1200M0 525h1200M200 0v630M400 0v630M600 0v630M800 0v630M1000 0v630"/></g>
+  <text x="80" y="102" fill="#48d1e9" font-family="Arial, sans-serif" font-size="18" letter-spacing="4">PANGEA FINANCIAL OPERATIONS PLATFORM</text>
+  <text x="80" y="180" fill="#fff" font-family="Arial, sans-serif" font-size="48" font-weight="600">Connected finance products.</text>
+  <text x="80" y="230" fill="#9bb0bc" font-family="Arial, sans-serif" font-size="23">Financial intelligence · Transactions · Governance · Planning · Workforce</text>
+  <g transform="translate(600 420)">
+    <circle r="105" fill="#0c2938" stroke="#35cce8" stroke-width="2"/>
+    <text text-anchor="middle" y="-8" fill="#fff" font-family="Arial, sans-serif" font-size="22" font-weight="700">PANGEA</text>
+    <text text-anchor="middle" y="20" fill="#7eb5c3" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">SHARED CONTEXT</text>
+    <g fill="none" stroke="#496878" stroke-width="2">
+      <path d="M-85-63L-290-130M90-60L300-125M100 45L320 110M0 105L0 195M-100 40L-325 110"/>
+    </g>
+    <g font-family="Arial, sans-serif" font-size="17" font-weight="700">
+      <g transform="translate(-390 -164)"><rect width="160" height="64" rx="4" fill="#0d2b3b" stroke="#20c7e8"/><text x="80" y="39" text-anchor="middle" fill="#fff">PULSE</text></g>
+      <g transform="translate(230 -160)"><rect width="160" height="64" rx="4" fill="#0d2b3b" stroke="#7c83ff"/><text x="80" y="39" text-anchor="middle" fill="#fff">DIRECT</text></g>
+      <g transform="translate(250 78)"><rect width="160" height="64" rx="4" fill="#0d2b3b" stroke="#1bb8a8"/><text x="80" y="39" text-anchor="middle" fill="#fff">SHIELD</text></g>
+      <g transform="translate(-80 175)"><rect width="160" height="64" rx="4" fill="#0d2b3b" stroke="#f3b44b"/><text x="80" y="39" text-anchor="middle" fill="#fff">SCALE</text></g>
+      <g transform="translate(-415 78)"><rect width="160" height="64" rx="4" fill="#0d2b3b" stroke="#a879f7"/><text x="80" y="39" text-anchor="middle" fill="#fff">PAYROLL</text></g>
+    </g>
+  </g>
+</svg>
